@@ -1,0 +1,13 @@
+#include <iostream>
+#include <string>
+#include<math.h>
+#include<vector>
+#include<fstream>
+#include<list>
+#include<algorithm>
+using namespace std;
+
+int main(){
+   srand((unsigned)time(NULL));     
+   return 0;
+}
