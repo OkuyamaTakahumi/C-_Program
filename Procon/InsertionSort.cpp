@@ -26,7 +26,7 @@ int main(){
   for(int i=1; i<n; i++){
     int v = A[i];
     int j = i-1;
-    while(v<A[j] and 0<=j){
+    while(A[j]>v and 0<=j){
       A[j+1] = A[j];
       j--;
     }
