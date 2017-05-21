@@ -17,7 +17,7 @@ void print(Card A[],int N){
     }
   }
   cout<<endl;
-}
+
 
 void bubble_sort(Card A[],int N){
   int i =0;

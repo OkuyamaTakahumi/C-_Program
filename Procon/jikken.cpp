@@ -23,7 +23,7 @@ int main(){
   int A[]={1,2,3,4,5};
   int B[]={7,7,7,7,7};
   swap(A[2],B[3]);
-  for(int i=0;i<5;i++){
+  for(int i=2;i<5;i+=4){
     cout<<A[i]<<endl;
   }
   return 0;
