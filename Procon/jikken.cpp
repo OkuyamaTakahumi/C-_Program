@@ -6,17 +6,10 @@
 #include<vector>
 #include<list>
 
+#define N 5
 using namespace std;
 
 int main(){
-  int val = 0;
-  for(int i=0;i<5;i++){
-    cout<< val++ <<endl;
-    //if(val++){
-      //printf("%d",i);
-    //}
-  }
-  //printf("\n");
-  int org_data[] = {4, 6, 5};
+  cout<<N<<endl;
   return 0;
 }
