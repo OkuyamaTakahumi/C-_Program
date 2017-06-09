@@ -15,6 +15,7 @@ int main(){
   cout<<data.size();//要素数の取得 : 3
   //前のやり方（元データから生成）
   int org_data[] = {4, 6, 5};//元データ
+  int org_data2[30];//元データ
   //vectorAの最初のイテレータ -> A.begin()
   //配列Aの最初のイテレータ -> A -> 配列名が最初のイテレータになる
   vector<int> data2(org_data, org_data + 3);
