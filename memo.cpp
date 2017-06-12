@@ -4,6 +4,8 @@
 #include<stdio.h>
 #include<algorithm>
 
+#include<math.h> //
+
 #include<vector>
 #include<list>
 #include<stack>
@@ -48,6 +50,8 @@ int main(){
   strcpy(str2,str4);//str2にstr4をコピー
   printf("%s\n",str2);
   cout<<strlen(str3)<<endl;//文字数を取得
+
+  cout<<M_PI<<endl; //math.hの中のもの(=3.14)
 
 
 
